@@ -75,4 +75,21 @@ if (strpos(func_get_arg(0), 'http') !== false) {
 function _echo($f,$text){
   echo "function:".$f." and msg::".$text;
 }
+function rb_mail($to, $subject, $body, $header, $params)
+{
+
+  $ch = curl_init();
+   $postvars = '';
+
+   curl_setopt($ch,CURLOPT_URL,"http://rbmail.razorbee.com");
+   curl_setopt($ch,CURLOPT_POST, 1);                //0 for a get request
+   curl_setopt($ch,CURLOPT_POSTFIELDS,"to=".$to."&subject=".$subject."&body=".$body."&header=".$header."&params=".$params);
+   curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
+   curl_setopt($ch,CURLOPT_CONNECTTIMEOUT ,3);
+   curl_setopt($ch,CURLOPT_TIMEOUT, 20);
+   $response = curl_exec($ch);
+   curl_close ($ch);
+return $response;
+
+  }
 ?>

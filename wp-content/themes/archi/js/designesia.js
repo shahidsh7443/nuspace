@@ -918,6 +918,11 @@ jQuery(document).ready(function() {
 					});
 /*jQuery('.mfp-wrap').on('ready',function(){ debugger; alert('Hello'); });*/
 jQuery(document).ready(function(){
+	if($(window).width()<490)
+	{
+		var winwidth= $(window).width();
+		$('.mvct').css({'width': winwidth});
+	}
  window.$=jQuery;
 
 /**WHAT WE DO*****/
@@ -951,7 +956,7 @@ $('.app').css('display','block');
 			$('.app').css('display','none');
 		}
   });
-	
+
 if($(window).width()<490)
 {
 $('.item').append('<div class="vm"><h4>View more</h4></div>');
