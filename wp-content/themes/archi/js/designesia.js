@@ -995,7 +995,7 @@ $('#menu-item-1351 span').addClass('active'); $('#menu-item-1351 ul').css('heigh
 } else {  $('.rotated').css('display','block'); }  });*/
 $('#menu-btn').on('click',function() {
 	$=jQuery;
-var res=$("#menu-btn").hasClass("active");
+/*var res=$("#menu-btn").hasClass("active");
 var scrolled = false;
 if(res)
 { $('.rotated').css('display','none');
@@ -1026,7 +1026,7 @@ else {
  								 scrolled = false;
  						 }
  				 });
-	 }
+	 }*/
 });
 	}
 });

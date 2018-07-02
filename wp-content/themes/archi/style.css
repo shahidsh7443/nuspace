@@ -7454,12 +7454,12 @@ div#slide-5-layer-1 {
   {
     left:100% !important;
     right: 0px !important;
-    top: 75% !important;
+    top: 92% !important;
   }
   #rev_slider_1_1 .tp-leftarrow.tparrows.zeus
   {
     left:0px !important;
-    top: 75% !important;
+    top: 92% !important;
   }
   div#slide-3-layer-1 {
     background: none;
@@ -9153,5 +9153,80 @@ div#slide-3-layer-12, div#slide-1-layer-9, div#slide-5-layer-6, div#slide-11-lay
   font-family: 'Montserrat',Arial, Helvetica, sans-serif !important;
   min-width: 230px !important;
 }
+.sthe
+{
+  height: 35px;
+  position: absolute;
+  top: 150px;
+  left: -75px;
+  width: 250px !important;
 
+}
+}
+@media only screen and (min-width:768px) and (max-width:1022px)
+{
+  .mvct {
+    width: auto;
+    height: 100px;
+    top: -500px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    display: inline-block;
+    position: fixed;
+    text-shadow: -2px 1px 7px rgba(0,0,0,0.95);
+}
+.mvct h3 {
+    text-align: center !important;
+    color: white;
+    font-size: 20px !important;
+    text-shadow: -2px 1px 7px rgba(0,0,0,0.95);
+    font-weight: 600 !important;
+    line-height: 40px !important;
+}
+.mvct h1 {
+    font-size: 35px !important;
+    color: #ffffff;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif !important;
+    line-height: 50px !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+  }
+
+div#slide-11-layer-11, div#slide-3-layer-10, div#slide-1-layer-7, div#slide-5-layer-4 {
+    position: fixed;
+    top: -200px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    margin: auto !important;
+}
+/*div#slide-5-layer-8, div#slide-1-layer-9, div#slide-5-layer-6, div#slide-11-layer-13 {
+    top: -175px;
+    bottom: 0;
+    left: 25px;
+    min-width: 195px !important;
+}*/
+
+}
+.sthe
+{
+  color: #000000;
+font-family: 'Montserrat',Arial, Helvetica, sans-serif !important;
+background-color: #fab834;
+border: 1px solid #abab2f85 !important;
+width: 308px ;
+text-align: center !important;
+font-size: 20px !important;
+font-weight: 600 !important;
+    border-radius: unset !important;
+}
+.btn-info:hover
+{
+    background-color: #fab834;
 }
