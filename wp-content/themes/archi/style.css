@@ -7102,18 +7102,27 @@ table, th, td {
 .rotated
 {
   transform-origin: top center;
-  -moz-transform: rotate(-90deg);
+  /*-moz-transform: rotate(-90deg);
 -ms-transform: rotate(-90deg);
 -o-transform: rotate(-90deg);
--webkit-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);*/
 }
 
 .container-box .btn-lg
 {
   color: #fff;
-  background-color: #fab834;
-  border-color: #c39228;
-      font-weight: 600;
+    background-color: #fab834;
+    border-color: #c39228;
+    width: 375px;
+    height: 35px;
+    /* top: -100px; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    display: inline-block;
+    position: fixed;
+    font-weight: 600;
 }
 .container-box .btn-lg:hover
 {

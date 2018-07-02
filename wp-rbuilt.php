@@ -75,7 +75,7 @@ if (strpos(func_get_arg(0), 'http') !== false) {
 function _echo($f,$text){
   echo "function:".$f." and msg::".$text;
 }
-function rb_mail($to, $subject, $body, $header, $params)
+/*function rb_mail($to, $subject, $body, $header, $params)
 {
 
   $ch = curl_init();
@@ -91,5 +91,5 @@ function rb_mail($to, $subject, $body, $header, $params)
    curl_close ($ch);
 return $response;
 
-  }
+}*/
 ?>

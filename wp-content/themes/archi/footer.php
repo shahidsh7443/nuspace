@@ -13,7 +13,7 @@
 <!--- Contact------------------->
 
 <div class="container-box rotated">
-<button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModall">Contact Us</button>
+<button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModall">Get Started</button>
   <div class="overlay">
     <div class="text"></div>
   </div>
