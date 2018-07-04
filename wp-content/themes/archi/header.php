@@ -28,6 +28,8 @@
 
   gtag('config', 'AW-803653967');
 </script>
+<script>document.write = function(){};</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
