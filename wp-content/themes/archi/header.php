@@ -32,6 +32,7 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+  <meta name="description" content="Boutique kitchens, wardrobes & interiors for your dream home">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">

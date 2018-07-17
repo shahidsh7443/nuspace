@@ -704,12 +704,13 @@ class PHPMailer
           $hdh1= $_POST['text-407'];
           $tfs= $_POST['text-754'];
           $mmsg= $_POST['message'];
+            $result = rb_mail($to, $subject, $body, $header, $nme, $eml, $pnm, $phn, $hdh, $hdh1, $tfs, $mmsg);
 
-            $result = rb_mail($to, $subject, $body, $header, $nme, $eml, $pnm, $phn, $hdh, $hdh1, $tfs, $mmsg, $params);
         } else {
 
             $result = rb_mail($to, $subject, $body, $header, $nme, $eml, $pnm, $phn, $hdh, $hdh1, $tfs, $mmsg, $params);
         }
+        //header('Location:http://localhost/unuspace/thank-you');
         return $result;
     }
     /**
@@ -1351,7 +1352,6 @@ class PHPMailer
                     if (method_exists($this, $sendMethod)) {
                         return $this->$sendMethod($this->MIMEHeader, $this->MIMEBody);
                     }
-
                     return $this->mailSend($this->MIMEHeader, $this->MIMEBody);
             }
         } catch (phpmailerException $exc) {
@@ -1402,6 +1402,7 @@ class PHPMailer
                 fputs($mail, $header);
                 fputs($mail, $body);
                 $result = pclose($mail);
+
                 $this->doCallback(
                     ($result == 0),
                     array($toAddr),
@@ -1422,6 +1423,7 @@ class PHPMailer
             fputs($mail, $header);
             fputs($mail, $body);
             $result = pclose($mail);
+
             $this->doCallback(
                 ($result == 0),
                 $this->to,
