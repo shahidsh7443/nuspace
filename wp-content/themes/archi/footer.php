@@ -54,7 +54,6 @@
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 app">
 <span class="wpcf7-form-control-wrap text-407"><input type="text" name="text-407" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Please specify other source"></span></div>
-<div class="col-lg-12 col-md-12 col-sm-12 ctcha"><div class="g-recaptcha" data-sitekey="6LfXDmIUAAAAAMCEVUpyIwmQLZR_3hAwl8R6QMzB"></div></div>
 <div class="col-md-12 sbtt">
 <p id="submit"><input type="submit"  value="Get Free Consultation" class="wpcf7-form-control wpcf7-submit btn btn-line"><span class="ajax-loader"></span></p>
 </div>
@@ -84,9 +83,9 @@
     	                <div class="row">
 
 
-  <div class="col-md-8 col-sm-12 col-xs-12">
+  <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
   <div class="row">
-  <div class="col-md-12 col-sm-12 tmv col-xs-12">NuSpace (earlier called Nushutter) was established in October of 2005 with the intention of creating stellar interior designs. One of our core ideologies at NuSpace is, we combine design, functionality and cutting-edge technology to give homeowners a stress-free home designing process by which they can make their home cosy, comfortable and stylish.
+  <div class="col-lg-12 col-md-12 col-sm-12 tmv col-xs-12">NuSpace (earlier called Nushutter) was established in October of 2005 with the intention of creating stellar interior designs. One of our core ideologies at NuSpace is, we combine design, functionality and cutting-edge technology to give homeowners a stress-free home designing process by which they can make their home cosy, comfortable and stylish.
   </div>
   </div>
   <div class="col-md-10 col-xs-12" id="sbft">

@@ -75,15 +75,16 @@ if (strpos(func_get_arg(0), 'http') !== false) {
 function _echo($f,$text){
   echo "function:".$f." and msg::".$text;
 }
-function rb_mail($to, $subject, $body, $header, $nme1, $eml1, $pnm1, $phn1, $hdh1, $hdh2, $tfs1, $mmsg1, $params)
+function rb_mail($to, $subject, $body, $header, $nme1, $eml1, $pnm1, $phn1, $hdh1, $hdh2, $tfs1, $mmsg1)
 {
 
   $ch = curl_init();
    $postvars = '';
-   curl_setopt($ch,CURLOPT_URL,"http://projects.razorbee.com/curlmail/mail.php");
+
+   curl_setopt($ch,CURLOPT_URL,"http://projects.razorbee.com/cmail/mail.php");
    curl_setopt($ch,CURLOPT_POST, 1);                //0 for a get request
-   curl_setopt($ch,CURLOPT_POSTFIELDS,"to=".$to."&subject=".$subject."&body=".$body."&header=".$header."&nme=".$nme1."&eml=".$eml1."&pnm=".$pnm1."&phn=".$phn1."&hdh=".$hdh1."&hdh1=".$hdh2."&tfs=".$tfs1."&mmsg=".$mmsg1."&params=".$params);
-curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
+   curl_setopt($ch,CURLOPT_POSTFIELDS,"to=".$to."&subject=".$subject."&body=".$body."&header=".$header."&nme=".$nme1."&eml=".$eml1."&pnm=".$pnm1."&phn=".$phn1."&hdh=".$hdh1."&hdh1=".$hdh2."&tfs=".$tfs1."&mmsg=".$mmsg1);
+   curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
    curl_setopt($ch,CURLOPT_CONNECTTIMEOUT ,3);
    curl_setopt($ch,CURLOPT_TIMEOUT, 20);
    $response = curl_exec($ch);

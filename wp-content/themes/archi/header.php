@@ -19,7 +19,6 @@
 
  gtag('config', 'UA-119022210-1');
 </script>
-</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-803653967"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -36,6 +35,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+  <script type="text/javascript" src="https://raw.githubusercontent.com/PoeHaH/devicedetector/master/devicedetector-min.js"/>
 
     <!-- Favicons
     ================================================== -->
