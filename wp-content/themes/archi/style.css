@@ -6473,6 +6473,7 @@ ul.process-circle-textonly li.active span
   background: #363566;
   padding: 25px;
   border-radius: 25px;
+  text-align: justify;
 }
 header .info {
     display: none;
@@ -7124,7 +7125,7 @@ table, th, td {
     background-color: #fab834;
     border-color: #c39228;
     width: 375px;
-    height: 35px;
+    height: 40px;
     /* top: -100px; */
     bottom: 0;
     left: 0;
@@ -9013,6 +9014,11 @@ color: black;
 /*****************FOOTER MOBILE******************************/
 @media only screen and (max-width:480px)
 {
+  .de_header_2 .container {
+    width: 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
   section#ensure {
     padding-top: 0px;
     padding-bottom: 5px;
@@ -9401,14 +9407,14 @@ div#slide-11-layer-11, div#slide-3-layer-10, div#slide-1-layer-7, div#slide-5-la
     margin-bottom: 50px !important;
     background: transparent !important;
 }
-.bx1 h2, .bx2 h2, .bx3 h2 {
+#txtbnr .bx1 h2, #txtbnr .bx2 h2, #txtbnr .bx3 h2 {
     font-size: 20px !important;
     text-shadow: -2px 1px 1px #000000;
     padding-top: 15px !important;
 }
-.bx1 h4, .bx2 h4, .bx3 h4 {
+#txtbnr .bx1 h4, #txtbnr .bx2 h4, #txtbnr .bx3 h4 {
     font-size: 15px !important;
-    margin-top: 20px !important;
+    margin-top: 5px !important;
     text-shadow: -2px 1px 1px #000000;
 }
 #txtbnr .bxs {
@@ -9803,7 +9809,7 @@ header div#logo a img {
 }
   #txtbnr .sttxt
   {
-    margin-top: -150% !important;
+    margin-top: -143% !important;
   }
 }
 @media only screen and (min-width:500px) and (max-width:600px)
@@ -9855,10 +9861,10 @@ article#livspace-stories div.container-fluid div#carousel-example-generic div.ca
   #txtbnr .mvct1 h3 {
     font-size: 18px !important;
   }
-  #txtbnr .bx1 h2, .bx2 h2, .bx3 h2 {
+  #txtbnr .bx1 h2, #txtbnr .bx2 h2, #txtbnr .bx3 h2 {
     font-size: 16px !important;
   }
-  #txtbnr .bx1 h4, .bx2 h4, .bx3 h4
+  #txtbnr .bx1 h4, #txtbnr .bx2 h4, #txtbnr .bx3 h4
   {
   font-size: 12px !important;
   }
@@ -10387,4 +10393,15 @@ header div#logo a img {
 .hidden1
 {
   display: none !important;
+}
+#homepage .container {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.de_header_2 .container
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
 }

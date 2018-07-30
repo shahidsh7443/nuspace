@@ -972,7 +972,7 @@ $=jQuery;
 });
 jQuery(document).ready(function(){
 $=jQuery;
-	if($(window).width() > 990 && $(window).width() < 1300)
+	if($(window).width() > 990 && $(window).width() < 1500)
 	{
 		var ih1=$('#interior').height();
 		$('#intimg1 .vc_column-inner ').css({'height':ih1});
