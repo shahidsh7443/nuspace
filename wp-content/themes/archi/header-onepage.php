@@ -19,6 +19,7 @@
 
  gtag('config', 'UA-119022210-1');
 </script>
+<meta name="google-site-verification" content="p25Zp2c53YnfPGaHmh0nRG4jx4d8N4dMnTDHxC8h_jo"/>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">

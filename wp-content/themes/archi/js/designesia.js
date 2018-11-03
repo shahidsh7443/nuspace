@@ -946,8 +946,8 @@ if($(window).width() > 990 && $(window).width() < 1300)
 		$('#mainmenu').removeClass("hidden1");
 	}
 //	$('.de_nav span').removeClass('content-mid');
-var cht = $('#cid2 .wow').height();
-	$('#cid1 .wow').css({'height':cht});
+//var cht = $('#cid2 .wow').height();
+	//$('#cid1 .wow').css({'height':cht});
 });
 /*jQuery('#menu-btn').on('click',function(){
 
@@ -996,9 +996,9 @@ $=jQuery;
  window.$=jQuery;
 
 /**WHAT WE DO*****/
+debugger;
 var tt=$('#cid2 .wow').height();
 $('#cid1 .wow').css('min-height',tt);
-$('#cid2 .wow').css('min-height',tt);
 
 
 
